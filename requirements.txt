@@ -1,0 +1,11 @@
+# Core web framework
+Flask==3.1.1            # latest stable (May 2025) :contentReference[oaicite:0]{index=0}
+
+# Google Gemini / generative‑ai SDK
+google-generativeai==0.8.5   # latest stable (Apr 2025) :contentReference[oaicite:1]{index=1}
+
+# Env‑var loader
+python-dotenv==1.0.1
+
+# Production WSGI server (used by Render & Heroku)
+gunicorn==22.0.0        # current major release (Apr 2024) :contentReference[oaicite:2]{index=2}
